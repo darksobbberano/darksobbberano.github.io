@@ -1,0 +1,48 @@
+:root {
+    --roxo-escuro: #4a148c;
+    --preto: #121212;
+    --roxo-hover: #7b1fa2;
+}
+
+body {
+    background-color: var(--preto);
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Botões Roxos */
+button {
+    background-color: var(--roxo-escuro);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: var(--roxo-hover);
+}
+
+/* Painel Admin */
+.admin-container {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid var(--roxo-escuro);
+}
+
+/* Textarea Estilizado */
+textarea {
+    width: 100%;
+    min-height: 100px;
+    background: #333;
+    color: white;
+    border: 1px solid var(--roxo-escuro);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
